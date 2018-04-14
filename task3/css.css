@@ -1,0 +1,11 @@
+img{width: 80px;height: 80px;}
+.bg{background-color: #eee;border:1px solid #999;margin:20px;height: 100%}
+.left{float: left;background-color: #fff;border:1px solid #999;width: 200px;height: 100%;margin:20px;}
+.right{float: right;background-color: #fff;border:1px solid #999;width: 120px;height: 100%;margin:20px;}
+.main{height: 100%;margin:20px 160px 20px 240px;background-color: #fff;border:1px solid #999;}
+#a{margin:20px 20px 10px 20px;}
+#b{margin:10px 20px 10px 20px;}
+#c{margin:10px 20px 10px 20px;}
+#d{margin:10px 20px 20px 20px;}
+#e{margin:20px 20px 20px 20px;}
+#y{float: right;padding-right: 15px;}
