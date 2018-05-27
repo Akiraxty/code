@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Examples</title>
+<link href="" rel="stylesheet">
+</head>
+<body>
+    <ul id="ul">
+		<li ><a href="javascript:;" class="link">超链接一</a></li>
+		<li ><a href="javascript:;" class="link">超链接二</a></li>
+		<li ><a href="javascript:;" class="link">超链接三</a></li>
+	</ul>
+	<button id="btn">加入超链接</button>
+
+
+<script>
+		var ul01 =document.getElementById("ul")
+		var btn01 = document.getElementById("btn");
+		btn01.onclick= function (argument) {
+				
+			var li = document.createElement("li");
+			li.innerHTML="<a href='javascript:;' class='link'>新超链接</a>";
+			ul01.appendChild(li);
+		}
+		ul01.onclick=function (event) {
+			// body...
+			if (event.target.className=="link") {
+				alert("点我干嘛⁄(⁄ ⁄•⁄ω⁄•⁄ ⁄)⁄");
+			}
+		}
+
+
+</script>
+</body>
+</html>
